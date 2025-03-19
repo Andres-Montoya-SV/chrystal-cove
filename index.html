@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrystal Kate Reyes 💖</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-pink-100 flex items-center justify-center min-h-screen">
+    <!-- Pantalla de bienvenida -->
+    <div
+      id="splash"
+      class="splash-screen text-center bg-white p-8 rounded-lg shadow-lg"
+    >
+      <span class="text-5xl">👋</span>
+      <p class="mt-4 text-2xl font-semibold text-gray-700">
+        Bienvenida, Chrystal Kate Reyes
+      </p>
+      <button
+        id="yesBtn"
+        class="mt-6 px-6 py-3 bg-pink-500 text-white text-lg font-bold rounded-lg shadow-md hover:bg-pink-600 transition-all"
+      >
+        Continuar
+      </button>
+    </div>
+
+    <!-- Contenido principal -->
+    <div
+      id="content"
+      class="hidden text-center bg-white p-10 rounded-lg shadow-2xl max-w-lg"
+    >
+      <p class="text-4xl font-bold text-pink-500 mb-4">
+        Receta para la relación perfecta 💕
+      </p>
+      <button
+        id="start"
+        class="mt-4 px-6 py-3 bg-green-500 text-white text-lg font-bold rounded-lg shadow-md hover:bg-green-600 transition-all"
+      >
+        Empezar
+      </button>
+
+      <!-- Lista de ingredientes oculta -->
+      <div id="steps" class="hidden mt-6">
+        <p class="text-3xl font-bold text-pink-500 mb-4">Ingredientes ✨</p>
+        <div class="space-y-4">
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            1. Querer mucho a la otra persona. ❤️
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            2. Ser honestos 👫
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            3. Escucharnos en todo momento 🔊
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            4. Buscar metas similares 🎯
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            5. Saber que siempre vamos a estar ahí el uno para el otro 💞
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            6. Ver el SuperBowl 🏈
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            7. Ser la novia más linda del mundo 😍
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            8. Ser mi Chrystalita linda 🌸
+          </div>
+          <div class="bg-pink-200 p-4 rounded-lg shadow-md text-lg">
+            9. Saber que me has transformado en la persona más feliz del mundo
+            🥰
+          </div>
+          <div
+            class="bg-pink-400 p-6 rounded-lg shadow-md text-lg font-bold text-white"
+          >
+            💖 Mi amor linda, te quiero y me gustaría saber... <br />
+            ¿Te gustaría ser mi novia? 💖
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
